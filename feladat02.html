@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feladat02</title>
+</head>
+<body>
+    <form>
+        <input type="text" id="beviteli1" placeholder="szöveg" onfocus="beviteliFocus1()" onblur="beviteliBlur1()">
+        <input type="text" id="beviteli2" placeholder="szöveg" onfocus="beviteliFocus2()" onblur="beviteliBlur2()">
+        <input type="text" id="beviteli3" placeholder="szöveg" onfocus="beviteliFocus3()" onblur="beviteliBlur3()">
+        <script>
+            function beviteliFocus1() {
+            document.getElementById("beviteli1").style.color = "green";
+            }
+            function beviteliBlur1() {
+            document.getElementById("beviteli1").style.color = "black";
+            }
+        
+            function beviteliFocus2() {
+            document.getElementById("beviteli2").style.color = "green";
+            }
+            function beviteliBlur2() {
+            document.getElementById("beviteli2").style.color = "black";
+            }
+        
+            function beviteliFocus3() {
+            document.getElementById("beviteli3").style.color = "green";
+            }
+            function beviteliBlur3() {
+            document.getElementById("beviteli3").style.color = "black";
+            }
+        
+        </script>
+    </form>
+</body>
+</html>
